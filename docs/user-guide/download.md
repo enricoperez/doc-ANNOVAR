@@ -28,8 +28,14 @@ NOTE: several whole-genome databases (cadd, cadd13, fathmm, dann, eigen, gerp++,
 | hg19 | knownGene | same as above (last update was 2013-06-30 at UCSC) | 20211019 |
 | hg38 | knownGene | same as above (last update was 2022-05-15 at UCSC) | 20211019 |
 | hg18 | ensGene | FASTA sequences for all annotated transcripts in wgEncodeGencodeManualV3 collection (last update was 2010-02-28 at UCSC) | 20211019 |
-| hg19 | ensGene | FASTA sequences for all annotated transcripts in Gencode v43 Basic collection lifted up to hg19 (last update was 2023-02-15 at UCSC) | 20230315 |
-| hg38 | ensGene | FASTA sequences for all annotated transcripts in Gencode v43 Basic collection (last update was 2023-02-15 at UCSC) | 20230315 |
+| hg19 | ensGene | FASTA sequences for all annotated transcripts in Gencode v46 Basic collection lifted over to hg19 (last update was 2024-05-13 at UCSC) | 20241008 |
+| hg38 | ensGene | FASTA sequences for all annotated transcripts in Gencode v46 Basic collection (last update was 2024-05-13 at UCSC) | 20241008 |
+| hg19 | ensGene45 | FASTA sequences for all annotated transcripts in Gencode v45 Basic collection lifted over to hg19 (last update was 2024-01-11 at UCSC) | 20241008 |
+| hg38 | ensGene45 | FASTA sequences for all annotated transcripts in Gencode v45 Basic collection (last update was 2024-01-11 at UCSC) | 20241008 |
+| hg19 | ensGene44 | FASTA sequences for all annotated transcripts in Gencode v44 Basic collection lifted over to hg19 (last update was 2023-08-07 at UCSC) | 20241008 |
+| hg38 | ensGene44 | FASTA sequences for all annotated transcripts in Gencode v44 Basic collection (last update was 2023-07-18 at UCSC) | 20241008 |
+| hg19 | ensGene43 | FASTA sequences for all annotated transcripts in Gencode v43 Basic collection lifted over to hg19 (last update was 2023-02-15 at UCSC) | 20230315 |
+| hg38 | ensGene43 | FASTA sequences for all annotated transcripts in Gencode v43 Basic collection (last update was 2023-02-15 at UCSC) | 20230315 |
 | hg19 | ensGene40 | FASTA sequences for all annotated transcripts in Gencode v40 Basic collection lifted up to hg19 (last update was 2022-04-28 at UCSC) | 20220802 |
 | hg38 | ensGene40 | FASTA sequences for all annotated transcripts in Gencode v40 Basic collection (last update was 2022-04-21 at UCSC) | 20220802 |
 | hg19 | ensGene41 | FASTA sequences for all annotated transcripts in Gencode v41 Basic collection lifted up to hg19 (last update was 2022-07-12 at UCSC) | 20221005 |
@@ -51,6 +57,8 @@ NOTE: several whole-genome databases (cadd, cadd13, fathmm, dann, eigen, gerp++,
 | hg38 | dbnsfp30a | same as above | 20151015 |
 | hg19 | dbnsfp31a_interpro | protein domain for variants | 20151219 |
 | hg38 | dbnsfp31a_interpro | same as above | 20151219 |
+| hg19 | dbnsfp47a_interpro | protein domain for variants | 20240617 |
+| hg38 | dbnsfp47a_interpro | same as above | 20240617 |
 | hg18 | dbnsfp33a | whole-exome SIFT, PolyPhen2 HDIV, PolyPhen2 HVAR, LRT, MutationTaster, MutationAssessor, FATHMM, PROVEAN, MetaSVM, MetaLR, VEST, M-CAP, CADD, GERP++, DANN, fathmm-MKL, Eigen, GenoCanyon, fitCons, PhyloP and SiPhy scores from dbNSFP version 3.3a | 20170221 |
 | hg19 | dbnsfp33a | same as above |  20170221 |
 | hg38 | dbnsfp33a | same as above | 20170221 |
@@ -70,8 +78,14 @@ NOTE: several whole-genome databases (cadd, cadd13, fathmm, dann, eigen, gerp++,
 | hg18 | dbnsfp42c | reformatted to include more columns than dbnsfp41a, commerical use | 20210710 |
 | hg19 | dbnsfp42c | same as above | 20210710 |
 | hg38 | dbnsfp42c | same as above | 20210710 |
+| hg19 | dbnsfp47a | dbNSFP version 4.7a | 20240525 |
+| hg38 | dbnsfp47a | same as above | 20240525 |
+| hg19 | dbnsfp42c | dbNSFP version 4.7c for commercial use | 20240525 |
+| hg38 | dbnsfp42c | same as above | 20240525 |
 | hg19 | dbscsnv11 | dbscSNV version 1.1 for splice site prediction by AdaBoost and Random Forest | 20151218 |
 | hg38 | dbscsnv11 | same as above | 20151218 |
+| hg38 | GTEx_v8_eQTL | Expression Quantitative Trait Loci (eQTL) across tissues based on GTEx v8 | 20241014 |
+| hg38 | GTEx_v8_sQTL | Splicing Quantitative Trait Loci (sQTL) across tissues based on GTEx v8 | 20241014 |
 | hg19 | intervar_20170202 | InterVar: clinical interpretation of missense variants (indels not supported)| 20170202 |
 | hg19 | intervar_20180118 | InterVar: clinical interpretation of missense variants (indels not supported) | 20180325 |
 | hg38 | intervar_20180118 | InterVar: clinical interpretation of missense variants (indels not supported)| 20180325 |
@@ -120,7 +134,11 @@ NOTE: several whole-genome databases (cadd, cadd13, fathmm, dann, eigen, gerp++,
 | hg38 | gnomad312_genome | version 3.1.2 whole-genome data | 20221228 |
 | hg38 | gnomad40_exome | version 4.0 whole-exome data | 20231127 |
 | hg38 | gnomad40_genome | version 4.0 whole-genome data | 20231127 |
-| hs1 | gnomad_genome | whole-genome data from [here](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/Homo_sapiens-GCA_009914755.4-2022_10-gnomad.vcf.gz) | 20230830 |
+| hg38 | gnomad41_exome | version 4.1 whole-exome data | 20240602 |
+| hg38 | gnomad41_genome | version 4.1 whole-genome data | 20240602 |
+| hs1 | gnomad | whole-genome data from [here](https://ftp.ensembl.org/pub/rapid-release/species/Homo_sapiens/GCA_009914755.4/ensembl/variation/2022_10/vcf/Homo_sapiens-GCA_009914755.4-2022_10-gnomad.vcf.gz) | 20230830 |
+| hg38 | allofus | whole-genome data from first ~250k srWGS in All of Us | 20250321 |
+| hg38 | regeneron | regeneron exome | 20250321 |
 | hg19 | kaviar_20150923 | 170 million Known VARiants from 13K genomes and 64K exomes in 34 projects | 20151203 |
 | hg38 | kaviar_20150923 | same as above | 20151203 |
 | hg19 | hrcr1 | 40 million variants from 32K samples in haplotype reference consortium | 20151203 |
@@ -174,6 +192,8 @@ NOTE: several whole-genome databases (cadd, cadd13, fathmm, dann, eigen, gerp++,
 | hg38 | avsnp147 | dbSNP147 with allelic splitting and left-normalization | 20160606 |
 | hg19 | avsnp150 | dbSNP150 with allelic splitting and left-normalization | 20170929 |
 | hg38 | avsnp150 | dbSNP150 with allelic splitting and left-normalization | 20170929 |
+| hg19 | avsnp151 | dbSNP151 with allelic splitting | 20240525 |
+| hg38 | avsnp151 | dbSNP151 with allelic splitting | 20240525 |
 | hg18 | snp128NonFlagged | dbSNP with ANNOVAR index files, after removing those flagged SNPs (SNPs < 1% minor allele frequency (MAF) (or unknown), mapping only once to reference assembly, flagged in dbSnp as "clinically associated") | 20120524 |
 | hg18 | snp129NonFlagged | same as above | 20120524 |
 | hg18 | snp130NonFlagged | same as above | 20120524 |
@@ -228,7 +248,11 @@ NOTE: several whole-genome databases (cadd, cadd13, fathmm, dann, eigen, gerp++,
 | hg19 | clinvar_20220320 |  Clinvar version 20220320 with separate columns (CLNALLELEID CLNDN CLNDISDB CLNREVSTAT CLNSIG) | 20220330 |
 | hg38 | clinvar_20220320 |  same as above | 20220320 |
 | hg19 | clinvar_20221231 |  Clinvar version 20221231 with separate columns (CLNALLELEID CLNDN CLNDISDB CLNREVSTAT CLNSIG) | 20230105 |
-| hg38 | clinvar_20221231 |  same as above | 20230105 |
+| hg38 | clinvar_20221231 |  same as above | 20240616 |
+| hg19 | clinvar_20240611 |  Clinvar version 20240611 with separate columns (CLNALLELEID CLNDN CLNDISDB CLNREVSTAT CLNSIG) | 20240616 |
+| hg38 | clinvar_20240611 |  same as above | 20240616 |
+| hg19 | clinvar_20240917 |  Clinvar version 20240917 with separate columns for germline variants, oncogenecity variants and somatic variants) | 20240924 |
+| hg38 | clinvar_20240917 |  same as above | 20240924 |
 | hg19 | popfreq_max_20150413 |  A database containing the maximum allele frequency from 1000G, ESP6500, ExAC and CG46 | 20150413 |
 | hg19 | popfreq_all_20150413 |  A database containing all allele frequency from 1000G, ESP6500, ExAC and CG46  | 20150413 |
 | hg19 | mitimpact2 | pathogenicity predictions of human mitochondrial missense variants (see [here](http://www.ncbi.nlm.nih.gov/m/pubmed/25516408/)  | 20150520 |
